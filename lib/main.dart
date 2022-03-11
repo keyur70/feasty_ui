@@ -1,8 +1,6 @@
 import 'package:feasty/welcome/ui/welcome_screen.dart';
 import 'package:flutter/material.dart';
 
-import 'demo.dart';
-
 void main() {
   runApp(MyApp());
 }
@@ -14,7 +12,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'GothamLight'),
       title: 'Flutter Demo',
-      home: DEmoPage(),
+      home: WelcomeScreen(),
     );
   }
 }
